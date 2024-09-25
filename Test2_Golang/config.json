@@ -1,0 +1,33 @@
+{
+    "db": {
+        "host": "localhost",
+        "port": "3306",
+        "user": "root",
+        "pass": "P@ssw0rd",
+        "schema": "crud-db",
+        "maxIdleConn": 1,
+        "maxOpenConn": 2,
+        "maxConnLifetime": 30,
+        "debug": true,
+        "enableMigration": true
+    },
+    "jwt": {
+        "ttl": 86400,
+        "key": "GB0912893",
+        "refresh_key": "GBX129!@$"
+    },
+    "bucket": {
+        "endpoint": "",
+        "region": "",
+        "space": "",
+        "key": "",
+        "secret": "vStY8u5NbiGX7W3ZXBqfOHsZYYdmrUZGYyhR9ccb",
+        "path": ""
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "DB": 7,
+        "enable": false
+    }
+}
